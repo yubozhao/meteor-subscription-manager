@@ -1,0 +1,8 @@
+{
+  "name": "subscription manager",
+  "description": "A manager for Meteor's subscription, inspired from Arunoda",
+  "homepage": "https://github.com/yubozhao/meteor-subscription-manager",
+  "author": "Bozhao Yu <yubz86@gmail.com>",
+  "version": "0.1.0",
+  "git": "https://github.com/yubozhao/meteor-subscription-manager.git"
+}
