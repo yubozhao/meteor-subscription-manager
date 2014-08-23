@@ -161,7 +161,6 @@ SubscriptionsManager.prototype._updateCacheList = function () {
     }
   });
 
-  console.log('final cachelist', list);
   self._cacheList = list;
 
   if (self._cacheLimit === false)
