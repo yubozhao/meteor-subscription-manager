@@ -169,7 +169,7 @@ SubscriptionsManager.prototype._updateCacheList = function () {
   var overLimit = self._cacheList.length - self._cacheLimit;
 
   if (overLimit > 0) {
-    var removed = self._cacheList.splice(0, overflow);
+    var removed = self._cacheList.splice(0, overLimit);
     _.each(removed, function (sub) {
       delete self._cacheMap[sub.hash];
     });
